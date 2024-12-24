@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+/* Small Screen */
+.container {
+  margin: 1rem;
+  font-family: 'Poppins';
+  background-color: #FFFFFF;
+  padding-bottom: 1rem;
+}
+
+.card__text{
+    margin: 1rem;
+    margin-bottom: 4rem;
+}
+
+.card__title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: #97B1A6;
+}
+
+.card__box {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.card__card {
+    border: none;
+    border-radius: 1rem;
+    padding: 3rem;
+    box-shadow: none;
+    margin: auto;
+    margin-bottom: 2rem;
+    max-width: 20rem;
+    width: 100%;
+}
+
+.card__category {
+    color: #073b4c;
+}
+
+/* Medium Screen */
+@media (min-width: 768px) {
+    .container {
+        margin: 1rem;
+        font-family: 'Poppins';
+        background: #FFFFFF;
+        padding-bottom: 3rem;
+    }
+
+    .card__box {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .card__card {
+        border: none;
+        border-radius: 1rem;
+        padding: 3rem;
+        box-shadow: none;
+        margin-right: 2rem;
+        max-width: 30rem;
+        width: 80%;
+        margin: 1rem;
+    }
+}
+
+/* Large Screen */
+@media (min-width: 992px) {
+
+    .container {
+        margin: 1rem;
+        font-family: 'Poppins';
+        background: #FFFFFF;
+        padding-bottom: 4rem;
+    }
+    .card__box {
+        text-align: center;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        
+    }
+
+    .card__card {
+        border: none;
+        border-radius: 1rem;
+        padding: auto;
+        box-shadow: none;
+        margin: auto;
+        max-width: 30rem;
+        width: 30%;
+    }
+
+    .card__image {
+        max-width: 30%;
+        height: auto;
+        border-radius: 25px;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .card__p {
+        text-align: justify;
+    }
+}
